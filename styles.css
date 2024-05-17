@@ -1,0 +1,64 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 60%;
+  margin: auto;
+}
+
+header {
+  background-color: white;
+  text-align: center;
+  padding: 20px;
+  
+}
+
+header h1 {
+  color: rgb(72, 222, 225);
+}
+
+.container {
+  
+  margin: 0 auto;
+  padding: 20px;
+  border: solid rgb(72, 222, 225);
+
+}
+
+.condition {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  
+}
+
+.condition label {
+  align-self: flex-start;
+  margin-bottom: 5px;
+  background-color: rgb(72, 222, 225);
+  color: white;
+  padding: 10px;
+  border-radius: 5%;
+  
+  font-size: 1.2em;
+}
+
+.condition input {
+  border: solid rgb(72, 222, 225);
+  width: 30%;
+  margin: auto;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+}
+
+button {
+  background-color: white;
+  border: solid rgb(72, 222, 225);
+  color: rgb(72, 222, 225);
+  font-size: 1.5em;
+}

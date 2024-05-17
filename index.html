@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://apis.google.com/js/api.js"></script>
+  <title>Align Minder</title>
+</head>
+<body>
+  <header>
+    <h1>Align Minder</h1>
+  </header>
+  <div class="container">
+
+    <form onsubmit="event.preventDefault(); calculateDates()">
+      <div class="condition">
+        <label for="startDate">開始日</label>
+        <input type="date" id="startDate" required>
+      </div>
+      <div class="condition">
+        <label for="interval">交換頻度</label>
+        <input type="number" id="interval" required>
+      </div>
+      <div class="condition">
+        <label for="nextAppointmentDate">次回の来院日</label>
+        <input type="date" id="nextAppointmentDate" required>
+      </div>
+      <button type="submit">計算する</button>
+      <h2>出力：</h2>
+      <ul id="output"></ul>
+    </form>
+  </div>
+  <button>登録</button>
+  <script src="script.js"></script>
+</body>
+</html>
